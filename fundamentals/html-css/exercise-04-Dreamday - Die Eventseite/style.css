@@ -1,0 +1,313 @@
+/* 
+Schriftarten:
+"Segoe UI"
+Farben (Hex-Werte):
+#9f7abO; Elegantes Violett
+#e8d3f2; Helles Violett
+#4a4058; Dunkles Violett 
+#faf6fd; Sehr helles Violett
+#2c2533; Dunkelgrau mit violettem Unterton
+#ffffff; Weiß
+ */
+ 
+ /* MAIN */
+ html,body{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+ }
+ h1{
+    color:#9f7ab0;
+    font-size: 24px;
+ } 
+
+ h2{
+   margin: 0;
+ }
+ h3{
+   margin: 0;
+   color: #9f7ab0;
+ }
+ h4{
+   color: #9f7ab0;
+   margin: 0;
+ }
+
+/* HilfCSS */
+.reverse{
+   flex-direction: row-reverse !important; 
+}
+ /* Header */
+ 
+ header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#faf6fd;
+    padding: 0 80px 0 80px;
+ }
+
+ .nav ul{
+   display: flex;
+   flex-direction: row;
+   gap: 16px;
+ }
+ .nav li{
+   list-style: none;
+
+ }
+
+ nav li a{
+   color: black;
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 12px;
+ }
+nav li:hover{
+   transform: scale(1.05);
+}
+/* Hero */
+
+#hero{
+   background-image: url(img/hero.jpg);
+   background-size: cover;
+   height: 80vh;
+   display: flex;
+   align-items:center;
+   justify-content: center;
+}
+
+#hero_black{
+   background-color: rgba(0, 0, 0, 0.306);
+   color: white;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+/* About */
+#about{
+   background-color:#faf6fd;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   gap: 30px;
+
+  
+   
+}
+#ab_content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 30px;
+   width: 80%;
+   gap: 30px;
+   
+}
+
+
+#ab_article{
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   gap: 80px;
+   padding-bottom: 50px;
+
+}
+
+#ab_article img{ 
+   width: 300px;
+   height: 200px;
+   border-radius: 8px;
+   
+}
+
+/* Leistungen */
+
+#leistungen{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 30px 0 30px 0;
+   gap: 30px;
+   
+}
+.le_content{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   gap: 20px;
+
+
+}
+
+.le_co_article{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 80%;
+   gap: 30px;
+}
+
+.le_co_article img{
+
+   width: 300px;
+   height: 200px;
+   border-radius: 8px;
+}
+
+/* Hier finden Sie Uns */
+
+#finden{
+   background-color:#fff ;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 60px 0;
+
+}
+
+.finden_uns{
+   color: #9f7ab0;
+   font-weight: 600;
+   font-size: 35px;
+   margin-bottom: 30px;   
+}
+.finden_uns p{
+
+   margin: 0;
+   text-align: center;
+
+}
+
+.maps{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.maps img{
+  
+  width: 80%;
+  display:block;
+  justify-content: center;
+  align-items: center;  
+  border-radius: 6px;
+
+}
+
+
+
+/* Contact */
+
+#contact{
+   background-color: #faf6fd;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 30px 0;
+}
+
+#co_content{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 80%;
+   gap: 30px;
+   
+}
+
+#co_article{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   flex-direction: row;
+   width: 100%;
+}
+
+#co_art_text p {
+   font-weight: 600;
+   
+}
+
+form{
+   width: 30%;
+   min-width: 320px;   
+}
+
+.input_group{
+   
+   display: grid;
+   grid-template-columns: 120px 1fr;
+   gap: 10px 14px;
+   align-items: center;
+   margin-bottom: 12px;
+}
+
+.input_group input, .input_group textarea{
+   border: 1px solid lightgray;
+   border-radius: 6px;
+   height: 22px;
+
+}
+.input_group textarea{
+   height: 80px;
+}
+.input_group textarea::placeholder{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type=submit]{
+   background-color: #9f7ab0;
+   color: white;
+   border: 1px solid lightgrey;
+   border-radius: 4px;
+   padding: 18px;
+   width: fit-content;
+   cursor: pointer;
+}
+
+input[type=submit]:hover{
+
+   color: #816290;
+}
+.submit_row{
+  grid-column: 2;
+  justify-self: end;
+}
+/* Footer Bereich- */
+#footer{
+  background-color: #4e445a;
+  padding: 30px 0;
+}
+
+.footer_content{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer_brand{
+  color: #9f7ab0;
+  font-size: 28px;
+  font-weight: 600;
+}
+.footer_social img{
+  width: 36px;
+  height: 36px;
+}
