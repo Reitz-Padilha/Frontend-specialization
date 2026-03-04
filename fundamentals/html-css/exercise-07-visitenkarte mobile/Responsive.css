@@ -1,22 +1,25 @@
-/* Breakpoints
-320px  mobile
-768px  tablet
-1024px desktop
-1440px large desktop
-1920px tv / wide screens
-*/
+
 
 /* =========================
    Responsive Layout
-   Breakpoint: Tablet / Mobile
    ========================= */
 @media screen and (max-width: 768px){
+ body{
+    background: #f2f2f2;
+ }
 
 #linke_seite{
     display: none;
 }
 
+#rechte_seite{
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.15) ;
+}
+
 #Karte{
+    background: #f2f2f2;
     display: flex;
     justify-content: center;
     align-items: center;
