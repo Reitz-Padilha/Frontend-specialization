@@ -1,0 +1,56 @@
+/* Breakpoints
+320px  mobile
+768px  tablet
+1024px desktop
+1440px large desktop
+1920px tv / wide screens
+*/
+
+/* =========================
+   Responsive Layout
+   Breakpoint: Tablet / Mobile
+   ========================= */
+@media screen and (max-width: 768px){
+
+#linke_seite{
+    display: none;
+}
+
+#Karte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    min-height: 100vh;
+}
+
+.haupttitel{
+    font-size: 32px;
+    line-height: 1.2;
+}
+
+
+#rechte_seite{
+    width:100%;
+    max-width:520px;
+    margin:0 auto;
+    padding:24px;
+    box-sizing:border-box;
+    text-align:center;
+}
+.profilbild{
+    width:120px;
+    height:120px;
+}
+
+.buttons{
+    display:flex;
+    justify-content:center;
+    gap:12px;
+    flex-wrap:wrap;
+}
+
+}
+
+
+
