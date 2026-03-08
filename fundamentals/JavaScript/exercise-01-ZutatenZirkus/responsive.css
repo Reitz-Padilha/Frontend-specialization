@@ -1,0 +1,51 @@
+@media (min-width:768px){
+    header{
+        width: 70%;
+    }
+    header h1 {
+    font-size: 32px;
+    margin-top: 60px;
+  }
+    .tagline {
+    font-size: 15px;
+  }
+
+    main {
+    width: 70%;
+    margin: 40px auto;
+    padding-bottom: 40px;
+  }
+
+   .recipe-header {
+    padding: 30px;
+  }
+
+    .recipe-header h2 {
+    font-size: 36px;
+  }
+
+    .recipe-header p {
+    padding: 20px;
+    font-size: 16px;
+  }
+
+    .recipe-body {
+    flex-direction: row;
+    gap: 60px;
+    padding: 0 40px;
+    align-items: flex-start;
+  }
+
+    .ingredients {
+    width: 230px;
+    padding: 25px;
+  }
+
+    .instructions {
+    flex: 1;
+  }
+
+    .instructions h4 {
+    font-size: 26px;
+  }
+}
