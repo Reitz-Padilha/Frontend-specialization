@@ -1,0 +1,43 @@
+/*  RESPONSIVE */
+
+/* Mobile / Tablet */
+@media (max-width: 768px){
+
+  .nav ul{ display: none; }
+  .burger{ display: flex; }
+
+  header{ padding: 14px 20px; }
+
+  #ab_article,
+  .le_co_article,
+  #co_article{
+    flex-direction: column;
+  }
+
+  form{ width: 100%; }
+
+  #ab_content,
+  #co_content{
+    width: 92%;
+  }
+
+  .input_group{
+    grid-template-columns: 1fr;
+  }
+
+  .submit_row{
+    grid-column: 1;
+  }
+}
+
+/* Desktop groß / 4K */
+@media (min-width: 1440px){
+
+  #ab_content,
+  .le_co_article,
+  #co_content,
+  .footer_content{
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+}

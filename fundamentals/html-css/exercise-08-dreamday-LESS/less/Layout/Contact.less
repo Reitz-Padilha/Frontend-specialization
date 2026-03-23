@@ -1,0 +1,80 @@
+
+/* Contact */
+
+#contact{
+   background-color: #faf6fd;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 40px 0 10px;
+}
+
+#co_content{ 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   width: 80%;
+   gap: 30px;
+   
+}
+
+#co_article{
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   flex-direction: row;
+   width: 100%;
+   gap: 30px;
+}
+
+#co_art_text p {
+   font-weight: 600;
+   
+}
+
+form{
+   width: 30%;
+   min-width: 320px;   
+}
+
+.input_group{
+   
+   display: grid;
+   grid-template-columns: 120px 1fr;
+   gap: 10px 14px;
+   align-items: center;
+   margin-bottom: 14px;
+}
+
+.input_group input, .input_group textarea{
+   border: 1px solid lightgray;
+   border-radius: 6px;
+   height: 22px;
+   padding: 6px;
+
+}
+.input_group textarea{
+   height: 80px;
+}
+.input_group textarea::placeholder{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input[type=submit]{
+   background-color: #9f7ab0;
+   color: white;
+   border: none;
+   border-radius: 4px;
+   padding: 18px;
+   width: fit-content;
+   cursor: pointer;
+}
+
+input[type=submit]:hover{
+
+   color: #816290;
+}
+.submit_row{
+  grid-column: 2;
+  justify-self: end;
+}
