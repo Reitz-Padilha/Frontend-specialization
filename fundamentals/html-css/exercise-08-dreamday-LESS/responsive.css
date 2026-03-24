@@ -8,11 +8,16 @@
 
   header{ padding: 14px 20px; }
 
+ 
   #ab_article,
-  .le_co_article,
   #co_article{
     flex-direction: column;
   }
+
+  .le_co_article, .le_co_article reverse{
+     flex-direction: column !important;
+  }
+  
 
   form{ width: 100%; }
 
